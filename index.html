@@ -3,13 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex" /> <!-- fortæller google at man må ikke følge links og indexere siden -->
+    <meta name="robots" content="nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Gourmet Danmark er et familieejetfirma, som sælger lokaldyrkede økologiske kvalitets bælgfrugter, hele korn samt sprøde spirer"> <!--beskrivelse af indholdet, vises på google-->
-    <meta name="keywords" content="bælgfrugter, danske ingrid ærter, danske fava bønner , danske hestebønner, hele korn, sprøde spirer, Gourmet Danmark ,"> <!--søgeord-->
+    <meta name="keywords" content="økologiske bælgfrugter, danske ingrid ærter, danske fava bønner , danske hestebønner, hele korn, sprøde spirer, Gourmet Danmark ,"> <!--søgeord-->
     <meta name="author" content="Alina Sevchenko"> <!--Hovedforfatter af indholdet-->
+    <link rel="stylesheet" href="./style.css">
     <title> Gourmet Danmark - køb danske økologiske bælgfrugter af høj kvalitet </title>
 </head>
 <body>
+    <header>
+          <!-- Logo -->
+        <div class="logo">
+        <img src="img/logo.svg" alt="Gourmet Danmark Logo">
+        </div>
+
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html" class="aktuelleside">Forside</a></li>
+                <li><a href="#" class="explore">Produkter</a></li>
+                <li><a href="#" class="explore">Om os</a></li>
+                <li><a href="#" class="explore">Opskrifter</a></li>
+                <li><a href="#" class="explore">Kontakt</a></li>
+
+            </ul>
+        </nav>   
+    </header>
+    
+    <main>
+        <section class="forside-banner"> <!--overskrift og banner samt velkomsttekst-->
+            <h1>Velkommen til Gourmet Danmark</h1>
+            <img src="img/gourmet-danmark-forside.png" alt="landmand på et mark" class="banner-img">
+            <p class="forside-citat" >“Vi stræber efter at tilbyde vores kunder bælgfugter af høj kvalitet, der er både sundhedsmæssigt fordelagtige og bæredygtige. 
+                Vores fokus ligger på at fremme en varieret og nærende kost, der kan berige din madoplevelse og samtidig være godt for både din sundhed og miljøet.”</p>
+
+        </section>
+
+        <section> <!--produkter-->
+            <h3>Udforsk vores produkter</h3>
+            <p>Vores udvalg af bælgfrugter er af høj kvalitet og er nøje udvalgt til at sikre den bedste smag og næring. Vi tilbyder et bredt udvalg af forskellige bælgfrugter, herunder ærter, bønner og linser.
+            </p>
+            <div class="produkter-container">
+                <div class="produkt">
+                    <img src="img/fava-boenner.png" alt="Økologiske fava bønner">
+                    <p>Danske økologiske bønner</p>
+                </div>
+                <div class="produkt">
+                    <img src="img/fava-boenner.png" alt="Økologiske fava bønner">
+                    <p>Danske økologiske bønner</p>
+                  </div>
+
+                  <div class="produkt">
+                    <img src="img/ingrid-aerter.png" alt="Økologiske Ingrid ærter">
+                    <p>Danske økologiske Ingrid ærter</p>
+                  </div>
+
+                  <div class="produkt">
+                    <img src="img/ingrid-aerter.png" alt="Økologiske Ingrid ærter">
+                    <p>Danske økologiske Ingrid ærter</p>
+                  </div>
+              </div>
+        </section>    
+
+        <section> <!--om Gourmet Danmark-->
+            <div class="om-os-container">
+                <div class="billed-container">
+                  <img src="img/landmand-vores-historie.png" alt="Landmand på et mark">
+                </div>
+                <div class="om-os-tekst-container">
+                  <h3>Gourmet Danmark</h3>
+                  <p>Vi er et nystartet familieejetfirma, som har specialiseret i at bearbejde, pakke og sælge lokaldyrkede kvalitetsprodukter.
+                    Vores sortiment består hovedsageligt af nøje udvalgte bælgfrugter, som er rensede og afskallede, hele korn samt sprøde spirer, 
+                    der er dyrket i væksthus uden brug af sprøjtemidler. 
+                    Vi stræber efter at tilbyde vores kunder produkter af høj kvalitet, der er både sundhedsmæssigt fordelagtige og bæredygtige. </p>
+                    <a href="#" class="knap">Læs mere her</a>
+                </div>
+              </div>
+        </section>
+        
+        <section> <!--Opskrifter-->
+        <h3>Opskrifter</h3>
+        <p>Uanset om du er en erfaren kok, en ivrig hjemmekok eller bare elsker at eksperimentere i køkkenet, vil vores produkter give dig mulighed for at skabe velsmagende og næringsrige retter. 
+           På vores hjemmeside finder du et omfattende udvalg af opskrifter, der omfatter bælgfrugter som hovedingrediens eller som en del af en velsmagende kombination. Uanset om du er vegetar, 
+           veganer eller blot ønsker at inkludere flere plantebaserede måltider i din kost, vil vores opskrifter inspirere dig til at eksperimentere og nyde bælgfrugter på forskellige måder.
+        </p>
+        <div class="opskrifter-container">
+            <div class="opskrift">
+                <img src="img/hummus-med-ingrid-aerter.png" alt="Hummus med ingrid ærter">
+                <p>Hummus med ingrid ærter</p>
+            </div>
+            <div class="opskrift">
+                <img src="img/groentsagssuppe-medingrid-ærter.png" alt="Grøntsagssuppe med Ingrid ærter">
+                <p>Grøntsagssuppe med Ingrid ærter</p>
+              </div>
+
+              <div class="opskrift">
+                <img src="img/chilli-sin-carne.png" alt="Chilli sin carne">
+                <p>Chilli sin carne med fava bønner</p>
+              </div>
+          </div>
+
+        </section>
+
+
+    </main>
+    
+    <footer>
+
+        
+    </footer>
+
+
     
 </body>
 </html>

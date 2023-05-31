@@ -1,0 +1,128 @@
+/*Generalt*/
+:root {
+    --lightbeige: #FDFDFA;
+    --beige: #D6D3C7;
+    --darkgreen: #333D31;
+    --brown: #745A3C;
+    --black: #121518;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('font/JosefinSans-VariableFont_wght.ttf') format('truetype'); 
+  }
+  
+  @font-face {
+    font-family: 'OpenSans';
+    src: url('font/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+  }
+  
+  
+body {
+  background-color: #FDFDFA;
+    
+}
+footer{
+  background-color: var(--brown);
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.banner-img {
+    width: 100%;
+    
+  }
+
+/*Overskrifter til mobil*/
+h1{
+  text-align:  center;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: "JosefinSans";
+  color: #FDFDFA;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+h3 {
+  font-family: "JosefinSans";
+  text-align:  center;
+  text-transform: uppercase;
+  font-size: 22x;
+  color: var(--darkgreen);
+}
+
+/*Brødtekst til mobil*/
+p { 
+  font-family: "OpenSans"; 
+  font-size: 16px;
+
+}
+
+
+.produkter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.produkt {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* mobile first media query styling regler genereret via Chat Gpt og derefter tilpasset*/ 
+
+/* Styles for screen widths 480px and above */
+@media (min-width: 480px) {}
+    
+  
+
+   
+   
+
+
+
+  
+/* Styles for screen widths 768px and above */
+@media (min-width: 768px) {
+    h1 { 
+        font-family: "JosefinSans";
+        font-size: 66px;
+        color: #FDFDFA;    
+       }
+    h3 {
+        font-family: "JosefinSans";
+        text-transform: uppercase;
+        font-size: 52px;
+        color: var(--darkgreen);
+
+
+
+    }
+    p {  
+        font-size: 18px;
+     }
+  /* Styles for screen widths 1024px and above */
+@media (min-width: 1024px) {
+
+    h1{ font-family: "JosefinSans",sans-serif;
+        font-size: 66px;
+        color: #FDFDFA;
+    }
+
+    p {  
+      font-size: 18px;
+    }
+  
